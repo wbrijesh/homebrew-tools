@@ -1,7 +1,7 @@
 class SttTui < Formula
   desc "Terminal speech-to-text interface powered by OpenAI"
   homepage "https://github.com/wbrijesh/stt-tui"
-  url "https://github.com/wbrijesh/stt-tui.git", tag: "v0.1.0"
+  url "https://github.com/wbrijesh/stt-tui.git", tag: "v0.2.0"
   license "MIT"
   head "https://github.com/wbrijesh/stt-tui.git", branch: "master"
 
