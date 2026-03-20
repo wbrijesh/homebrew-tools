@@ -1,10 +1,11 @@
 class SttTui < Formula
-  desc "Terminal speech-to-text interface powered by OpenAI"
+  desc "Terminal speech-to-text interface"
   homepage "https://github.com/wbrijesh/stt-tui"
-  url "https://github.com/wbrijesh/stt-tui.git", tag: "v0.2.1"
+  url "https://github.com/wbrijesh/stt-tui.git", tag: "v0.3.0"
   license "MIT"
-  head "https://github.com/wbrijesh/stt-tui.git", branch: "master"
+  head "https://github.com/wbrijesh/stt-tui.git", branch: "main"
 
+  depends_on "cmake" => :build
   depends_on "rust" => :build
 
   def install
