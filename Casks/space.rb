@@ -1,5 +1,6 @@
-# Template for Casks/space.rb in wbrijesh/homebrew-tools: `just publish` fills in the version and
-# the zip's sha256 and pushes it. Install: brew install --cask wbrijesh/tools/space
+# Space: https://github.com/wbrijesh/space. Install: brew install --cask wbrijesh/tools/space
+# Updated by `just publish` in that repo (from packaging/homebrew/space.rb), which sets the
+# version and the zip's sha256.
 cask "space" do
   version "0.1.0"
   sha256 "df2849ce7a4913a2f30906fe3f9253431e2d284c7aa19a17219ae723c2b6d00e"
