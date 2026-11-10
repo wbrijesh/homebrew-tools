@@ -2,8 +2,8 @@
 # Updated by `just publish` in that repo (from packaging/homebrew/space.rb), which sets the
 # version and the zip's sha256.
 cask "space" do
-  version "0.1.1"
-  sha256 "9789d6968faa8cbb0716993b3b1e07304bd0ccc07b30e500e0060f647b7021e3"
+  version "0.1.2"
+  sha256 "8c47a8145268946a28831a20a2e2f386e97f59756244a2ff440c6bafb12784dc"
 
   url "https://github.com/wbrijesh/space/releases/download/v#{version}/Space-#{version}-arm64.zip"
   name "Space"
